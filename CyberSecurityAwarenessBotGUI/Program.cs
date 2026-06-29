@@ -10,8 +10,7 @@ namespace CyberSecurityAwarenessBotGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // Change 'MainForm' to 'Form1' if you haven't renamed the class inside Form1.cs
-            Application.Run(new MainForm());
+            Application.Run(new Form1());
         }
     }
 }
